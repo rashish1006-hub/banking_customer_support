@@ -1,0 +1,83 @@
+# Environment variables and sensitive data
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+support_tickets.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Evaluation results and data
+evaluation_results.json
+interaction_log.json
+analysis_results.json
+knowledge_base.json
+
+# Cache
+.cache/
+*.cache
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Project specific
+support_tickets.db
+*.bak
+*.backup
